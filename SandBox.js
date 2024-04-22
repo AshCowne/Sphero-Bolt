@@ -17,12 +17,13 @@ async function startProgram() {
 
 async function startProgram() {
 	setMainLed({ r: 0, g: 0, b: 255 });
-	await speak("Hello Square", true);
+	await speak("Hello World", true);
 	await delay(1);
 	for (var _i1 = 0; _i1 < 20; _i1++) {
 		setMainLed(getRandomColor());
-		await Sound.Game.Coin.play(true);
+		await Sound.Mechanical.Alarm.play(true);
 		await roll((getHeading() - 35), 50, 1);
 		await delay(1);
 	}
 }
+
