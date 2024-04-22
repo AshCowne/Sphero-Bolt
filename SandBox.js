@@ -15,6 +15,7 @@ async function startProgram() {
 }
 */
 
+/*
 async function startProgram() {
 	setMainLed({ r: 0, g: 0, b: 255 });
 	await speak("Hello World", true);
@@ -26,4 +27,8 @@ async function startProgram() {
 		await delay(1);
 	}
 }
+*/
 
+sync function startProgram() {
+	await foll(90, 75, 2)
+}
