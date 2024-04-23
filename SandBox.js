@@ -29,6 +29,11 @@ async function startProgram() {
 }
 */
 
-sync function startProgram() {
-	await foll(90, 75, 2)
+async function startProgram() {
+	await delay(1)
+	await roll(90, 75, 2);
+	await delay(1)
+	await roll(-180, 60, 2);
+	await roll(45, 50, 2);
+
 }
