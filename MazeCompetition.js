@@ -8,20 +8,21 @@
 
 
 async function startProgram() {
- // Programer: Ash Cowne - Start Text & Audio Commit - Date: 
+	// Programer: Ash Cowne - Start Text & Audio Checkpoint Commit - Date: 4.30.2024
 	await scrollMatrixText('Start!', { r: 66, g: 56, b: 255 }, 90, true)
 	await delay(1)
 	await speak("Start", true);
+	
+
+	// Programmer: Lauryn Meyer - Blue LED Checkpoint Commit - Date: 5.1.2024
+
+	await roll((getHeading() + 0), 75, 2.25);
+	await delay(1);
+	setMainLed({ r: 0, g: 0, b: 100 });
 
 
-	// Programer: - Blue LED Checkpoint Commit - Date:
-
-
-
-
-
-	// Programer: - Sound One Checkpoint Commit - Date:
-
+	// Programer:   - Sound One Checkpoint Commit - Date:
+	
 
 
 	// Programer: - Red LED Checkpoint Commit - Date:
