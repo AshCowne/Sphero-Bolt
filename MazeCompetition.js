@@ -20,15 +20,18 @@ async function startProgram() {
 	await delay(1);
 	setMainLed({ r: 0, g: 0, b: 100 });
 
-	// Programer: Ash Cowne  - Sound One Checkpoint Commit - Date: 5.1.2024
-	await roll((getHeading() + 90), 80, 1.5);
+// Programer: Ash Cowne  - Sound One Checkpoint Commit - Date: 5.1.2024
+	await roll((getHeading() + 90), 75,1.4);
 	await delay(1);
 	await Sound.Effects.Fairy.play()
-
-	// Programer: - Red LED Checkpoint Commit - Date:
-
-
-
+	
+	// Programmer: Lauryn Meyer - Red LED Checkpoint Commit - Date: 5.1.2024
+	await roll((getHeading() + 90), 75,1);
+	await delay(1);
+	await roll((getHeading() + 40),75,1);
+	await delay(.5);
+	setMainLed({ r: 100, g: 0, b: 0 });
+	
 
 	// Programer: - Sound Two Checkpoint Commit - Date:
 
