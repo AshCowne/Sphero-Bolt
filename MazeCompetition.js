@@ -42,15 +42,16 @@ async function startProgram() {
 	
 	// Programmer: Lauryn Meyer - Green LED Checkpoint Commit - Date: 5.2.2024
 	await delay (1);
-	await roll((getHeading() + 0), 60,0.2);
+	await roll((getHeading() + 0), 75,0.4);
 	await delay(1);
 	await roll((getHeading() + 90), 75,.5);
-	await delay(1);
-	await roll((getHeading() - 90), 60,0.5);
+	await delay(1);  
+	await roll((getHeading() - 90), 70,0.4);
 	setMainLed({ r: 0, g: 100, b: 0 });
 
-	// Programer: - Purple LED & Sound Three Checkpoint Commit - Date:
-	await roll((getHeading() + 0), 70,0.5);
+	// Programer: Ash Cowne - Purple LED & Sound Three Checkpoint Commit - Date:
+	await delay(1);
+	await roll((getHeading() + 0), 60,0.2);
 	await delay(1);
 	await roll((getHeading() - 90), 75,1);
 	await delay(1);
@@ -112,15 +113,16 @@ async function startProgram() {
 	
 	// Programmer: Lauryn Meyer - Green LED Checkpoint Commit - Date: 5.2.2024
 	await delay (1);
-	await roll((getHeading() + 0), 60,0.2);
+	await roll((getHeading() + 0), 75,0.4);
 	await delay(1);
 	await roll((getHeading() + 90), 75,.5);
-	await delay(1);
-	await roll((getHeading() - 90), 60,0.5);
+	await delay(1);  
+	await roll((getHeading() - 90), 70,0.4);
 	setMainLed({ r: 0, g: 100, b: 0 });
 
-	// Programer: - Purple LED & Sound Three Checkpoint Commit - Date:
-	await roll((getHeading() + 0), 70,0.5);
+	// Programer: Ash Cowne - Purple LED & Sound Three Checkpoint Commit - Date:
+	await delay(1);
+	await roll((getHeading() + 0), 60,0.2);
 	await delay(1);
 	await roll((getHeading() - 90), 75,1);
 	await delay(1);
