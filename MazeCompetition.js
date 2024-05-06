@@ -37,25 +37,25 @@ async function startProgram() {
 	await delay(1);
 	await roll((getHeading() - 90), 75,1);
 	await delay(1);
-	await roll((getHeading() + 90), 60,0.7);
+	await roll((getHeading() + 90), 60,0.8);
 	await Sound.Effects.Fireworks.play()
 	
 	// Programmer: Lauryn Meyer - Green LED Checkpoint Commit - Date: 5.2.2024
-	await delay (1);
-	await roll((getHeading() + 0), 75,0.4);
+	//await delay (1);
+	//await roll((getHeading() + 0), 70,0.4);
 	await delay(1);
 	await roll((getHeading() + 90), 75,.5);
 	await delay(1);  
-	await roll((getHeading() - 90), 70,0.4);
+	await roll((getHeading() - 90), 70,0.5);
 	setMainLed({ r: 0, g: 100, b: 0 });
 
 	// Programer: Ash Cowne - Purple LED & Sound Three Checkpoint Commit - Date:
 	await delay(1);
-	await roll((getHeading() + 0), 60,0.2);
+	await roll((getHeading() + 0), 60,0.5);
 	await delay(1);
 	await roll((getHeading() - 90), 75,1);
 	await delay(1);
-	await roll((getHeading() - 45), 60,0.7);
+	await roll((getHeading() - 45), 60,0.6);
 	await roll((getHeading() + 45), 60,0.5);
 
 	setMainLed({ r: 50, g:0, b: 50 });
@@ -108,25 +108,25 @@ async function startProgram() {
 	await delay(1);
 	await roll((getHeading() - 90), 75,1);
 	await delay(1);
-	await roll((getHeading() + 90), 60,0.7);
+	await roll((getHeading() + 90), 60,0.8);
 	await Sound.Effects.Fireworks.play()
 	
 	// Programmer: Lauryn Meyer - Green LED Checkpoint Commit - Date: 5.2.2024
-	await delay (1);
-	await roll((getHeading() + 0), 75,0.4);
+	//await delay (1);
+	//await roll((getHeading() + 0), 70,0.4);
 	await delay(1);
 	await roll((getHeading() + 90), 75,.5);
 	await delay(1);  
-	await roll((getHeading() - 90), 70,0.4);
+	await roll((getHeading() - 90), 70,0.5);
 	setMainLed({ r: 0, g: 100, b: 0 });
 
 	// Programer: Ash Cowne - Purple LED & Sound Three Checkpoint Commit - Date:
 	await delay(1);
-	await roll((getHeading() + 0), 60,0.2);
+	await roll((getHeading() + 0), 60,0.5);
 	await delay(1);
 	await roll((getHeading() - 90), 75,1);
 	await delay(1);
-	await roll((getHeading() - 45), 60,0.7);
+	await roll((getHeading() - 45), 60,0.6);
 	await roll((getHeading() + 45), 60,0.5);
 
 	setMainLed({ r: 50, g:0, b: 50 });
