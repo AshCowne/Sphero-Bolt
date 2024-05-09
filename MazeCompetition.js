@@ -62,9 +62,6 @@ async function startProgram() {
 	setMainLed({ r: 50, g:0, b: 50 });
 	await Sound.Effects.JokeDrum.play()
 
-
-
-
 	// Programer: Lauryn Meyer- Finish Text & Audio Checkpoint Commit - Date: 5.7.2024
 
 	await roll((getHeading() - 25), 75, 1);
